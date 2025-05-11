@@ -1,0 +1,82 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 2px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tariffName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ffffff;
+  background-color: rgba(34, 156, 171, 1);
+  color: white;
+  font-size: 20px;
+  height: 50px;
+}
+
+.tariffPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(44, 193, 213, 1);
+  color: white;
+  border: solid 2px #e5dfdf;
+
+  font-size: 30px;
+  height: 100px;
+}
+
+.tarifSpeed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ffffff;
+  background-color: #e5dfdf;
+  color: rgb(97, 96, 96);
+  height: 40px;
+}
+.limitSpeed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ffffff;
+  background-color: rgb(206, 205, 205);
+  color: rgb(97, 96, 96);
+  height: 50px;
+}
+.card:nth-child(2) {
+  .tariffName {
+    background-color: rgba(30, 129, 109, 1);
+  }
+  .tariffPrice {
+    background-color: rgba(36, 174, 141, 1);
+  }
+}
+.card:nth-child(3) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  .tariffName {
+    background-color: rgba(196, 85, 78, 1);
+  }
+  .tariffPrice {
+    background-color: rgba(244, 106, 95, 1);
+  }
+}
+.card:nth-child(4) {
+  .tariffName {
+    background-color: rgba(40, 47, 55, 1);
+  }
+  .tariffPrice {
+    background-color: rgba(53, 56, 70, 1);
+  }
+}
