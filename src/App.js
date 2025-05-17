@@ -1,5 +1,5 @@
 import React from "react";
-import Tariff from "./components/Tariff";
+import Tariff from "./components/TariffComponent/Tariff";
 
 const App = () => {
   return (

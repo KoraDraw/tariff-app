@@ -13,7 +13,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.tariffName {
+.name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
   height: 50px;
 }
 
-.tariffPrice {
+.price {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
   height: 100px;
 }
 
-.tarifSpeed {
+.speed {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,7 @@
   color: rgb(97, 96, 96);
   height: 40px;
 }
-.limitSpeed {
+.limit {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,29 +54,25 @@
   color: rgb(97, 96, 96);
   height: 50px;
 }
-.card:nth-child(2) {
-  .tariffName {
-    background-color: rgba(30, 129, 109, 1);
-  }
-  .tariffPrice {
-    background-color: rgba(36, 174, 141, 1);
-  }
+.green .name {
+  background-color: rgba(30, 129, 109, 1);
 }
-.card:nth-child(3) {
-  transform: scale(1.05);
+.green .price {
+  background-color: rgba(30, 129, 109, 1);
+}
+.red .name {
+  background-color: rgba(196, 85, 78, 1);
+}
+.red .price {
+  background-color: rgba(244, 106, 95, 1);
+}
+.gray .name {
+  background-color: rgba(40, 47, 55, 1);
+}
+.gray .price {
+  background-color: rgba(53, 56, 70, 1);
+}
+.highlight {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  .tariffName {
-    background-color: rgba(196, 85, 78, 1);
-  }
-  .tariffPrice {
-    background-color: rgba(244, 106, 95, 1);
-  }
-}
-.card:nth-child(4) {
-  .tariffName {
-    background-color: rgba(40, 47, 55, 1);
-  }
-  .tariffPrice {
-    background-color: rgba(53, 56, 70, 1);
-  }
+  transform: scale(1.05);
 }
